@@ -1,0 +1,361 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+html{
+    width:100%;
+    height:72%;
+	
+}
+
+body{
+    height: auto;
+    background-image: url(../img/riven/bg_expanded.jpg);     
+    /*background-attachment: fixed;*/	
+    background-size: 100% auto;    
+    margin: none;    
+    padding: none;   
+    font-family: sans-serif;
+	min-width: 700px;
+}
+
+@font-face{
+	font-family: titleFont;
+	src: url(bmf.ttf);
+}
+
+#main{
+    margin: 0 auto;
+    margin-top:3%;    
+    overflow: hidden;    
+    height: 160%;
+}
+
+#top{
+    height:6vh;
+    width:100%;
+    background-color: rgba(0, 0, 0, 1.0); 
+    color: white;
+    position: fixed;
+    top:0;
+    left:0;
+    text-align: center;
+    padding: 0 0 1vh 0;	
+	z-index: 3;
+	border-bottom: 1px solid green;   
+	
+}
+form{
+    display: block;
+    font-size: 2.5vh;
+	margin-top: 2vh;
+	margin-left: 5vw;
+    font-family: titleFont;
+    text-shadow: 2px 2px 2px rgba(0, 222, 50, 1.0);
+}    
+
+input{
+	border: none;
+	background-color: white;
+	height: 2.5vh;	
+	margin-top: -2.5vh;
+	font-size: 15px;
+    margin-right: -3vw;
+/*    border: 2px solid green;*/
+}
+
+label{
+	
+}
+
+#username{
+	margin-right: 10%;
+}
+
+#top img{	
+    width:auto;
+    height:100%;
+	position: absolute;
+	top: 0;
+	left: 50%;
+}
+#header{	
+    width:100%;
+    height:30vh;
+    background-image: url(../img/riven/header_riven_2.jpg);    
+    background-size: 100% auto;       
+    background-repeat: no-repeat;
+    text-align: center;
+    line-height: 30vh;
+    margin: 0 auto;
+    box-sizing: border-box;  
+	
+    
+}
+
+
+#general{	
+	border-top: 2px solid gray; 
+	border-bottom: 2px solid gray; 
+	height: 28vh;
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	background-color: rgba(0, 0, 0, 0.6);	
+	padding-top: 4.5vh;	
+}
+#desc  img{
+	height: 93%;
+	width: auto;
+	position: absolute;
+	top: 2px;
+	left: 2px;		
+}
+
+#title {
+		text-align: center;
+		height: 7vh;
+		line-height:6.6vh; 		
+		font-size: 5vh;
+		font-family: titleFont;
+		text-shadow: 2px 2px 2px rgba(0, 222, 50, 1.0);
+		border-bottom: 2px solid green;
+		position: relative;
+}
+
+#desc{	
+	
+	height: 22vh;
+	width: 80%;
+	border: 2px solid green;
+	border-radius: 0 15px 0 15px;
+	background-color: rgba(0, 0, 0, 0.7);
+	margin: 0px auto;
+	color: white;	
+	position: relative;
+	text-align: center;
+	
+}
+
+#detail{	
+	text-decoration: none;
+	font-size: 1.7vh;	
+}
+#detail ul{
+	list-style: none;
+}
+
+#detail ul li{
+	margin: 1%;
+	padding: 1%;
+	background-color: rgba(0, 0, 0, 0.8);
+	border: 1px solid green;
+	display: block;
+	border-radius: 0 15px 0 15px;
+	font-style: italic;
+	height:2vh;
+}
+
+#menu{
+    height: 10%;  
+    background-color: rgba(100, 100, 100, 0.5);
+}
+ul{
+    
+    width:100%;
+    height:100%;
+}
+
+#menu ul li{  
+    display:block;
+    text-align: center;
+    Background-color: rgba(0, 0, 0, 0.5);      
+    width:15%;   
+	color: white;
+    margin-top:2.8vh;    
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+    float: left;        
+    font-size: 2vh;  
+    height:6.1vh;      
+	line-height: 6.1vh;	
+	box-sizing: border-box;
+	border: 1px solid green;
+}
+#menu ul li span {
+    margin: 0 auto;
+    height: 6.1vh;
+    line-height: 6.1vh;
+    display: block;
+    color:rgba(200, 200, 200, 1.0);  
+    text-decoration: none;
+	border: 1px solid green;
+	box-sizing: border-box;
+}
+
+/* Change Text on hover */
+
+#p:hover span {
+	display:none;
+}
+#p:hover:before  {	
+	content:"Runic Blade";	
+}
+
+#q:hover span {
+	display:none;
+}
+#q:hover:before  {
+	content:"Broken Wings";
+}
+
+#w:hover span {
+	display:none;
+}
+#w:hover:before  {
+	content:"Ki Burst";
+}
+
+#e:hover span {
+	display:none;
+}
+#e:hover:before  {
+	content:"Valor";
+}
+
+#r:hover span {
+	display:none;
+}
+#r:hover:before  {
+	content:"B. of the Exile";
+}
+
+/*************************/
+
+#sections{    
+    margin-bottom: 0px;    
+    width:100%;
+    height: 100%;
+    overflow:hidden;
+}
+
+#sec1, #sec2, #sec3, #sec4, #sec5{
+    width:80%;
+    height:31.3vh;
+	margin: 1% auto;
+    border:2px solid green;           
+    background-color: rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+	color:white;
+	position:absolute;		
+	top:78%;
+	left:10%;
+}
+
+#p:hover #sec1{
+	display:block;
+}
+
+/* Sections -- Skills */
+.centered{
+	
+}
+
+.skill_pic{
+	width: 10%;
+	margin: 3% 0 0 3%;
+	border: 1px solid green;	
+}
+
+ .skill_desc{
+	 display:block;
+	 width:25%;
+	 height:43%;
+	 background-color: rgba(0, 0, 0, 0.7);
+	 border: 2px solid green;
+	 border-radius: 0 25px 0 25px;
+	 margin-top: 2%;
+	 margin-left: 3%;
+	 padding:1%;
+	 padding-bottom: 3%;
+     font-size: 12px;
+ } 
+ 
+ 
+ video{
+	 width: 58%;
+	 height: auto;	
+	 position: absolute;
+	 top: 7%;
+	 right: 3%;
+	 border: 2px solid green;
+	 
+ }
+
+ #r1, #r2{
+	position: absolute;
+	-webkit-transition: opacity 1s ease-in-out;
+	-moz-transition: opacity 1s ease-in-out;
+	-o-transition: opacity 1s ease-in-out;
+	transition: opacity 1s ease-in-out;
+ }
+ 
+ #fade #r2:hover{
+	 opacity: 0;
+ }
+ 
+ 
+ 
+ #r3{
+	 margin-top: 15.3%;
+ }
+ 
+ orange{
+	 color: orange;
+ }
+
+#footer{
+	z-index: 3;
+	border-top: 1px solid green;
+    position:fixed;
+    bottom:0;
+    left:0;
+    background-color: rgba(0, 0, 0, 1.0);   
+    width: 100%;
+    height: 7vh;   
+}
+#footer img{
+    margin-left:48.8%;
+    width:auto;
+    height:100%;
+}
+#menu ul li:hover{
+    background-color: rgba(0, 0, 0, 0.7);   
+    
+}
+#menu ul li:hover a{
+	color: rgba(255, 255, 255, 1.0);
+}
+
+@media(min-width: 960px) {
+	body{
+		width:50%;	
+		height:105%;		
+		margin-left: 25%;
+		margin-right: 25%;		
+	} 
+    #sec1, #sec2, #sec3, #sec4, #sec5{
+        width: 40%;
+        height: 33vh;
+        left: 30%;
+    }
+    video{
+        width:60%;
+        height: auto;
+    }
+}
+
+
